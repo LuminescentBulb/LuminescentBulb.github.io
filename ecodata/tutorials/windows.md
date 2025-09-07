@@ -3,9 +3,10 @@ layout: spec
 ---
 
 Windows Tutorial for EcoData
+=====================================
 
 ## Install WSL
-
+Open Windows Powershell in Administrator mode to run the commands below.
 If you don't have WSL already (check by running `wsl -l -v`). then you will need to install it.
 
 Run the following command if you don't have it:
@@ -79,8 +80,8 @@ ecodata
 ```
 
 ### CLI Tutorial
-If you have time and want to learn more about the command line, check out EECS 280's CLI tutorial [CLI Tutorial](https://eecs280staff.github.io/tutorials/cli.html).
-We will only need relatively simple commands like `ls`, `cd` in general, and more specific commands will be taught within projects. 
+If you have time and want to learn more about the command line, check out EECS 280's [CLI Tutorial](https://eecs280staff.github.io/tutorials/cli.html).
+We will only need relatively simple commands like `ls`, `cd`, `mkdir` in general, and more specific commands will be taught within projects. 
 
 ## VSCode Setup
 Personally, I recommend VSCode since almost everyone in EECS uses it and it runs on both macOS, Windows, and Linux. psst: Do NOT confuse with Visual Studio. 
@@ -124,5 +125,4 @@ And that's it! You don't need to do anything more with VSCode until you get into
 as well as any project specific extensions you might need. 
 
 ## Acknowledgments
-Original tutorial document written by Andrew DeOrio awdeorio@umich.edu [here](https://eecs280staff.github.io/tutorials/setup_wsl.html) <br>
-Modified for purposes of a simplified setup tutorial for EcoData
+This tutorial is adapted from [Andrew DeOrio's original document](https://eecs280staff.github.io/tutorials/setup_wsl.html), licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Modifications have been made for EcoData.  
